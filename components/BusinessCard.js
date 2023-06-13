@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from './BusinessCard.module.css';
+import Image from 'next/image'
 
 const BusinessCard = () => {
   const [flipped, setFlipped] = useState(false);
@@ -18,7 +19,9 @@ const BusinessCard = () => {
         </div>
         <div className={styles.cardBack}>
             <div className={styles.cardHalf}>
-                <img src="/profile1.jpeg" alt="profile picture" className={styles.imgProfile}/>
+              <div className={styles.imgProfile}>
+                <Image src="/profile1.jpeg" width='200px' height='200px' alt="profile picture" className={styles.imgProfile}/>
+              </div>
             </div>
             <div className={styles.cardHalf}>
                 <h4>MARCUS LINDHOLM</h4>
@@ -26,16 +29,16 @@ const BusinessCard = () => {
                 <p>INDUSTRIAL ENGINEERING AND MANAGEMENT</p>
                 <div className={styles.socialContainer}>
                     <div className={styles.socialSubContainer}>
-                        <img src="/linkedin.png" alt="linkedin button" className={styles.imgSocial}/>
-                        <a href="https://www.linkedin.com/in/marcus-lindholm/" target="_blank">@marcus-lindholm</a>
+                        <Image src="/linkedin.png" alt="linkedin button" width='30px' height='30px' className={styles.imgSocial}/>
+                        <a href="https://www.linkedin.com/in/marcus-lindholm/" target="_blank" rel="noreferrer">@marcus-lindholm</a>
                     </div>
                     <div className={styles.socialSubContainer}>
-                        <img src="/instagram.png" alt="instagram button" className={styles.imgSocial}/>
-                        <a href="https://www.instagram.com/marcuslindholm_/" target="_blank">@marcuslindholm_</a>
+                        <Image src="/instagram.png" alt="instagram button" width='30px' height='30px' className={styles.imgSocial}/>
+                        <a href="https://www.instagram.com/marcuslindholm_/" target="_blank" rel="noreferrer">@marcuslindholm_</a>
                     </div>
                     <div className={styles.socialSubContainer}>
-                        <img src="/github.png" alt="github button" className={styles.imgSocial}/>
-                        <a href="https://www.github.com/marcusxenon" target="_blank">@marcusxenon</a>
+                        <Image src="/github.png" alt="github button" width='30px' height='30px' className={styles.imgSocial}/>
+                        <a href="https://www.github.com/marcusxenon" target="_blank" rel="noreferrer">@marcusxenon</a>
                     </div>
                 </div>
             </div>

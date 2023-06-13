@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import BusinessCard from '../components/BusinessCard';
+import Image from 'next/image'
 
 
 function Home() {

@@ -68,10 +68,10 @@
 }
 
 .imgProfile {
-    width: 200px;
-    height: 200px;
     border: 1px solid #fff;
     margin: 35px 20px 20px 20px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 
@@ -80,6 +80,7 @@
     height: 100%;
     padding: 10px;
     display: inline-block;
+    align-items: middle;
 }
 .cardHalf p {
     color: #fff;
