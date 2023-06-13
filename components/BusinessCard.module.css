@@ -1,0 +1,125 @@
+.card {
+    width: 480px;
+    height: 300px;
+    perspective: 1000px;
+}
+  
+.cardInner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flipped .cardInner {
+    transform: rotateY(180deg);
+}
+
+.cardFront,
+.cardBack {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    box-shadow: black 5px 5px 20px;
+}
+
+.cardFront {
+    background-image: url("../public/CardBackground6.svg");
+    background-color: #585858;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.cardFront h1 {
+    color: #fff;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.cardFront p {
+    color: #fff;
+    font-weight: regular;
+    font-size: 12px;
+}
+
+.cardBack {
+    background-image: url("../public/CardBackground7.svg");
+    background-color: #212121;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+.bottomText {
+    position: absolute;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 10px;
+    margin-bottom: 50px;
+    bottom: 0;
+}
+
+.imgProfile {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #fff;
+    margin: 35px 20px 20px 20px;
+    border-radius: 50%;
+}
+
+.cardHalf {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    display: inline-block;
+}
+.cardHalf p {
+    color: #fff;
+    font-weight: lighter;
+    font-size: small;
+    margin: 5px 0 5px 5px;
+}
+
+.cardHalf h4{
+    letter-spacing: 1px;
+    margin: 35px 0 10px 0;
+    color: #fff;
+}
+
+.imgSocial {
+    width: 30px;
+    height: 30px;
+}
+
+.socialContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.socialSubContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 3px 0 0 1px;
+}
+
+.socialContainer img {
+    margin-right: 7px;
+}
+
+.socialContainer a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
