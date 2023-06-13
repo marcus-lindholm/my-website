@@ -11,7 +11,7 @@ function Home() {
       <Head>
         <title>Marcus Lindholm</title>
         <meta name="Marcus Lindholm" content="Student at Linköping University | Industrial Engineering and management" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
         
       </Head>
       
