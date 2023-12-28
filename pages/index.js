@@ -16,10 +16,9 @@ function Home() {
       </Head>
       
       <main className={styles.main}>
-      
-      <div>
-        <BusinessCard />
-      </div>
+        <div>
+          <BusinessCard />
+        </div>
 
       {/*<h1 className={styles.title}>
           Get in touch with me
