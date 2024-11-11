@@ -38,7 +38,7 @@ const BusinessCard = () => {
                     </div>
                     <div className={styles.socialSubContainer}>
                         <Image src="/github.png" alt="github button" width='30px' height='30px' className={styles.imgSocial}/>
-                        <a href="https://www.github.com/marcusxenon" target="_blank" rel="noreferrer">@marcusxenon</a>
+                        <a href="https://www.github.com/marcus-lindholm" target="_blank" rel="noreferrer">@marcus-lindholm</a>
                     </div>
                 </div>
             </div>
