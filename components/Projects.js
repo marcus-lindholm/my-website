@@ -11,7 +11,7 @@ const projects = [
 const Projects = () => {
   return (
     <section className={styles.projects}>
-      <h2 className={styles.projectsTitle}>Some projects I've worked on</h2>
+      <h2 className={styles.projectsTitle}>Some projects I&apos;ve worked on</h2>
       <div className={styles.projectsGrid}>
         {projects.map((project) => (
           <a
