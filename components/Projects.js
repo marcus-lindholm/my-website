@@ -2,6 +2,7 @@ import Image from 'next/image';
 import styles from './Projects.module.css';
 
 const projects = [
+  { name: 'Valstatistik.nu', href: 'https://www.valstatistik.nu/', image: '/projects/valstatistik.svg' },
   { name: 'APKrona.se',  href: 'https://apkrona.se/',    image: '/projects/apkrona.png' },
   { name: 'I-portalen',  href: 'https://i-portalen.se/', image: '/projects/i-portalen.png' },
   { name: 'Kiwok.se',    href: 'https://www.kiwok.se/',  image: '/projects/kiwok.png' },
@@ -31,7 +32,7 @@ const Projects = () => {
                   style={{ objectFit: 'contain' }}
                 />
               ) : (
-                <span className={styles.projectLogoText}>Fornbod</span>
+                <span className={styles.projectLogoText}>{project.name.replace(/\.(se|nu|com)$/i, '')}</span>
               )}
             </div>
             <span className={styles.projectName}>{project.name}</span>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="7" fill="#006AA7"/>
+
+  <!--
+    Whale in the iconic "fluking" (tail-up) pose, seen from behind/below.
+    Two curved flukes spread up and outward from the tail stock, with a clear
+    concave notch between them at the top — the unmistakable whale silhouette.
+  -->
+  <path fill="white" d="
+    M14,29 L14,21
+    C12,17 4,13 4,9
+    C4,6 8,6 12,10
+    C14,12 15,12 16,12
+    C17,12 18,12 20,10
+    C24,6 28,6 28,9
+    C28,13 20,17 18,21
+    L18,29 Z
+  "/>
+
+  <!-- Small water splash lines at the base (the surface) -->
+  <path stroke="white" stroke-width="1.1" fill="none" stroke-linecap="round" d="M9,27 Q11,25 13,27"/>
+  <path stroke="white" stroke-width="1.1" fill="none" stroke-linecap="round" d="M19,27 Q21,25 23,27"/>
+</svg>
