@@ -15,6 +15,7 @@ const BusinessCard = () => {
         <div className={styles.cardFront}>
           <h1>MARCUS LINDHOLM</h1>
           <p>INDUSTRIAL ENGINEERING AND MANAGEMENT | LINKÖPING UNIVERSITY</p>
+          <p>IT CONSULTANT</p>
           <p className={styles.bottomText}>TAP CARD FOR CONTACT INFORMATION &#8594;</p>
         </div>
         <div className={styles.cardBack}>
@@ -27,14 +28,11 @@ const BusinessCard = () => {
                 <h4>MARCUS LINDHOLM</h4>
                 <p>LINKÖPING UNIVERSITY</p>
                 <p>INDUSTRIAL ENGINEERING AND MANAGEMENT</p>
+                <p>IT CONSULTANT</p>
                 <div className={styles.socialContainer}>
                     <div className={styles.socialSubContainer}>
                         <Image src="/linkedin.png" alt="linkedin button" width='30px' height='30px' className={styles.imgSocial}/>
                         <a href="https://www.linkedin.com/in/marcus-lindholm/" target="_blank" rel="noreferrer">@marcus-lindholm</a>
-                    </div>
-                    <div className={styles.socialSubContainer}>
-                        <Image src="/instagram.png" alt="instagram button" width='30px' height='30px' className={styles.imgSocial}/>
-                        <a href="https://www.instagram.com/marcuslindholm_/" target="_blank" rel="noreferrer">@marcuslindholm_</a>
                     </div>
                     <div className={styles.socialSubContainer}>
                         <Image src="/github.png" alt="github button" width='30px' height='30px' className={styles.imgSocial}/>
