@@ -14,7 +14,6 @@ const BusinessCard = () => {
       <div className={styles.cardInner}>
         <div className={styles.cardFront}>
           <h1>MARCUS LINDHOLM</h1>
-          <p>INDUSTRIAL ENGINEERING AND MANAGEMENT | LINKÖPING UNIVERSITY</p>
           <p>IT CONSULTANT</p>
           <p className={styles.bottomText}>TAP CARD FOR CONTACT INFORMATION &#8594;</p>
         </div>
@@ -26,8 +25,6 @@ const BusinessCard = () => {
             </div>
             <div className={styles.cardHalf}>
                 <h4>MARCUS LINDHOLM</h4>
-                <p>LINKÖPING UNIVERSITY</p>
-                <p>INDUSTRIAL ENGINEERING AND MANAGEMENT</p>
                 <p>IT CONSULTANT</p>
                 <div className={styles.socialContainer}>
                     <div className={styles.socialSubContainer}>
