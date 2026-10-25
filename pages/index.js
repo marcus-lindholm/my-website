@@ -11,7 +11,7 @@ function Home() {
     <div className={styles.container}>
       <Head>
         <title>Marcus Lindholm</title>
-        <meta name="Marcus Lindholm" content="Student at Linköping University | Industrial Engineering and management" />
+        <meta name="Marcus Lindholm" content="IT Consultant" />
         <link rel="icon" href="/favicon.png" />
         
       </Head>
